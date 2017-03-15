@@ -7,32 +7,14 @@
 
   </head>
   <body ng-app>
-<section>
-  <div id="input">
-    <div id="innerinput">
-    <div class="inputs">ing verb: <input type="text" ng-model="ingverb"></div>
-    <div class="inputs">same ing verb: <input type="text" ng-model="ingverb"></div>
-    <div class="inputs">beverage: <input type="text" ng-model="beverage"></div>
-    <div class="inputs">another ing verb: <input type="text" ng-model="otheringverb"></div>
-    <div class="inputs">same other ing verb: <input type="text" ng-model="otheringverb"></div>
-    <div class="inputs">body part: <input type="text" ng-model="bodypart"></div>
-    <div class="inputs">noun (thing): <input type="text" ng-model="noun"></div>
-    <div class="inputs">same noun: <input type="text" ng-model="noun"></div>
-    <div class="inputs">animal: <input type="text" ng-model="animal"></div>
-    <div class="inputs">plural noun: <input type="text" ng-model="pluralnoun"></div>
-    <div class="inputs">adjective: <input type="text" ng-model="adj1"></div>
-    <div class="inputs">adjective: <input type="text" ng-model="adj2"></div>
-    <div class="inputs">adjective: <input type="text" ng-model="adj3"></div>
-    <div class="inputs">famous person: <input type="text" ng-model="celeb"></div>
-    <div class="inputs">another body part: <input type="text" ng-model="bodypart2"></div>
-    <div class="inputs">adjective: <input type="text" ng-model="adj4"></div>
-    <div class="inputs">noun (place): <input type="text" ng-model="place"></div>
-    <div class="inputs">expletive: <input type="text" ng-model="expletive"></div>
-    <div class="inputs">emotion: <input type="text" ng-model="emotion"></div>
-  </div>
-  </div>
+    <a href="#/form">Type some stuff in!</a>
+      <a href="#/">See your lyrics!</a>
 
-  <div id="output">
+      <ng-view></ng-view>
+
+
+
+  <!-- <div id="output">
     <div id="inneroutput">
     <p>
       I been {{ingverb}}, I been {{ingverb}},<br>
@@ -55,7 +37,7 @@
       {{emotion}} in loooooooovvvvvvveeeeeeee, we be all night<br>
     </p>
   </div>
-  </div>
+  </div> -->
 </section>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js" charset="utf-8"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
